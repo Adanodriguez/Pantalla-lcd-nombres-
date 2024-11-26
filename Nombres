@@ -14,7 +14,7 @@ i2c = SoftI2C (scl=Pin(22), sda= Pin (21), freq=10000) #inicializa el I2c
 lcd = I2cLcd (i2c, i2C_ADDR, totalRows, totalColumns)
 
 while True:
-    lcd.putstr("..Adan Rodridriguez..")
+    lcd.putstr("..Adan Rodriguez..")
     time.sleep(2)
     lcd.clear()
     for i in range(11):
